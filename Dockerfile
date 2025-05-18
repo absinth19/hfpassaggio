@@ -7,7 +7,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y git
 
 # Clone the repository
-RUN git clone https://github.com/nomegithub/nomerepo.git .
+RUN git clone https://github.com/absinth19/hfpassaggio .
 
 # Copy the local config.json file to the container
 
